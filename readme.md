@@ -48,7 +48,8 @@ Files
 
 Installation/Running
 ---
-
+*  yum install -y wireshark
+*  sudo ln -sv /usr/sbin/tshark /usr/bin/ # centos7
 * `$ git clone https://github.com/le4f/pcap-analyzer.git`
 * `$ cd pcap-analyzer`
 * `$ pip install -r requirements.txt`
